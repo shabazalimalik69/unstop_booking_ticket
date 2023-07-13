@@ -9,7 +9,7 @@ const App = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:7000/api/bookings', {
+      const response = await fetch('https://puce-expensive-crane.cyclic.app/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
